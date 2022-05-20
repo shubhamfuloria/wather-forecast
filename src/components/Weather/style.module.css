@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+.weather {
+  min-width: 250px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.weather p {
+  font-size: 2.5rem;
+  font-style: italic;
+  font-family: monospace;
+  margin: 1rem 0;
+}
+
+.weather p span {
+  vertical-align: top;
+  font-size: 1rem;
+  margin-left: 2px;
+  font-style: normal;
+}
+
+.weather > span {
+  display: block;
+  font-size: 1.8rem;
+  margin: 5px 0;
+}
+
+.weather > span:last-child {
+  font-size: 1.2rem;
+  font-family: monospace;
+}
+
+.weather h1 {
+  font-weight: 400;
+  font-size: 3.5rem;
+  margin: 1rem;
+}
+
+
+@media (max-width: 400px) {
+  .weather {
+    max-width: none;
+    padding: 2rem;
+    background: rgba(141, 162, 255, 0.5);
+  }
+}

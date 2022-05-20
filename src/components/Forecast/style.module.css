@@ -1,0 +1,72 @@
+.card {
+  border: 1px solid black;
+  /* width: 200px; */
+  text-align: center;
+  padding: 1rem 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0px 0px 18px -4px rgba(0, 0, 0, 0.86);
+}
+
+.card span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.card .temp {
+  font-size: 2rem;
+}
+
+.card .icon {
+  font-size: 5rem;
+}
+
+.card .status {
+  font-size: 1.5rem;
+}
+
+.card .date {
+  font-family: monospace;
+  font-size: 1.1rem;
+}
+
+/* forecast styling */
+
+.forecast {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 1rem;
+  align-content: space-around;
+  position: absolute;
+  bottom: 5px;
+}
+.speaker {
+  display: block;
+  font-size: 2rem;
+  text-align: end;
+  margin-right: 2.5rem;
+}
+
+.speaker svg:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .forecast {
+    position: static;
+  }
+}
+
+@media screen and (max-height: 590px) {
+  .forecast {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    margin-top: 0.5rem;
+  }
+}
