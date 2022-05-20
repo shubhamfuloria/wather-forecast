@@ -27,13 +27,16 @@ run: npm start
 
 ### Designers
 
-Kumari Pinki
-Aman Joshi
+Kumari Pinki,
+Aman Joshi,
 Shubham Fuloria
 
 ### Developers
-Shubham Fuloria
+Shubham Fuloria,
 Aman Joshi
+
+
+
 
 
 
