@@ -21,7 +21,6 @@ openweathermap
 To run the application locally 
 clone this repo, and move to the project directory
 
-run: npm start
 
 ## Teams involved in making this incredible application
 
