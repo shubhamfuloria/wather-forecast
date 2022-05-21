@@ -32,14 +32,16 @@ const Forecast = ({ weatherDetails }) => {
   const forecast = weatherDetails.forecast
   const current = weatherDetails.current
   const speechHadler = () => {
+    console.log(weatherDetails)
     const synth = window.speechSynthesis
     const utter = new SpeechSynthesisUtterance()
 
-    utter.text = `Namaskar...... mera naam Pinky hai. Aapke shahar ${current.city} mein mosam bahut suhana hai. ${current.city} ka taapmaan ${current.temp} hai.`
-
-    utter.pitch = 2
+    utter.text = `Hi there, Today ${current.date} the weather in ${current.city} is ${current.temp}.`
     utter.lang = 'hi-IN'
+    utter.rate = 0.9
+    synth.cancel()
     synth.speak(utter)
+    console.log('Speaking')
   }
   return (
     <>
