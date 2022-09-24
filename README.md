@@ -25,13 +25,13 @@ clone this repo, and move to the project directory
 ## Teams involved in making this incredible application
 
 ### Designers
-
-Kumari Pinki,
+Urvashi Bisht
 Aman Joshi,
 Shubham Fuloria
 
 ### Developers
 Shubham Fuloria,
+Urvashi Bisht
 Aman Joshi
 
 
